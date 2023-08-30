@@ -29,7 +29,6 @@ print()
 
 
 #Task 5
-
 t = float(input("Enter talents: "))
 p = float(input("Enter pounds: "))
 l = float(input("Enter lots: "))
