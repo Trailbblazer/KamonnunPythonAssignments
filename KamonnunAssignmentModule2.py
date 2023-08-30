@@ -1,7 +1,7 @@
 #Kamonnun Silarat - Python Assignment Module 2
 
 #Task 1
-#print("Hello, BB")
+print("Hello, BB")
 
 #Task 2
 import math
@@ -35,28 +35,13 @@ p = float(input("Enter pounds: "))
 l = float(input("Enter lots: "))
 talent = t*20*32*13.3
 pound = p*32*13.3
-lots = l*13.3 #grams
+lots = l*13.3
 tpl = talent+pound+lots
 kg = int(tpl/1000)
 g = tpl-kg*1000
 print(f"The weight in modern units: {(kg):} kg and {float(g):.2f} grams." )
 
 #Task 6
-import random
-n_str=str(random.randint(0, 9))
-n1=(str(n_str[0]))
-n2=(str(n_str[1]))
-n3=(str(n_str[2]))
-print(n_str)
-
-"""
-import random
-n_str = str(random.randint[0, 9],3)
-n1=(str(n_str[0]))
-n2=(str(n_str[1]))
-n3=(str(n_str[2]))
-print(n_str)
-"""
 import random
 n611 = str(random.randint( 0, 9))
 n612 = str(random.randint( 0, 9))
