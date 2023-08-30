@@ -1,7 +1,7 @@
 #Kamonnun Silarat - Python Assignment Module 2
 
 #Task 1
-print("Hello, BB")
+print("Hello, Kamonnun")
 
 #Task 2
 import math
@@ -15,7 +15,7 @@ l = int(input("Enter the length of a rectangle: "))
 w = int(input("Enter the width of a rectangle: "))
 perimeter_r = l + w + l + w
 area_r = l * w
-print(f"The perimeter and area of the rectangle are: { perimeter_r , area_r } units^2 respectively." )
+print(f"The perimeter of the rectangle is {int(perimeter_r)} units and area of the rectangle is {int(area_r)} units^2 respectively." )
 
 #Task 4
 a = int(input("Enter first value: "))
@@ -24,9 +24,8 @@ c = int(input("Enter third value: "))
 sum = a+b+c
 product = a*b*c
 average = sum/3
-print(f"Sum: {sum}, Product: {product} Average: {average}" )
+print(f"Sum: {sum}, Product: {product} Average: {average:.1f}" )
 print()
-
 
 #Task 5
 t = float(input("Enter talents: "))
