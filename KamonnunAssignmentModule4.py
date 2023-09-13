@@ -7,7 +7,6 @@ while i in range(1, 1000):
         print(i,end="\n")
     i=i+1
 
-
 #Task 2
 num_inch = int(input("Enter the number in inch: "))
 while int(num_inch) >= 0:

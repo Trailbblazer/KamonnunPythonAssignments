@@ -43,7 +43,6 @@ if bio_gender == 'female':
     else:
         print("Try again")
 
-
 #Task 4
 year = int(input("Please enter the year: "))
 year01 = year%4
